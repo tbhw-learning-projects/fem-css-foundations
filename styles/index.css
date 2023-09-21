@@ -1,0 +1,17 @@
+@import "./base.css";
+
+.home .main__heading {
+    font-weight: bold;
+    font-size: clamp(60px, 0.33rem + 8vw, 128px);
+}
+
+.home .main__subheading {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.home .main__button-container {
+    display: flex;
+    gap: 16px;
+    margin-top: 100px;
+}
